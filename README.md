@@ -65,7 +65,7 @@ Para levantar cada uno de los workers se deberán seguir los pasos siguientes:
 
 **Acceso a la aplicación**
 
-[http://localhost:8080/[nombre_carpeta]
+http://localhost:8080/rendimiento
 
 ---
 
