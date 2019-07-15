@@ -42,7 +42,7 @@ function imageFx3 ($image){
 
         $redis->set('images',json_encode($rows));
     
-    susleep( 1500000 );
+    usleep( 1500000 );
           
     elasticaInsert($file, $tagsFx);
 
