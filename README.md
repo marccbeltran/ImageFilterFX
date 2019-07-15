@@ -4,17 +4,26 @@
 
 Se adjunta archivo docker-compose
 
-docker-compose up -d
+docker-compose up -d BUILD
 
 ---
 
 **Conexión a la BBDD**
 
+name: **db**
 **127.0.0.1**  
 user: **user**  
 password: **password**  
 port: **3306**
-name: db
+
+
+---
+*** conexion a través del container de docker y creación de la base de datos ***
+
+1. ***docker exec -ti [id container mysql] bash***
+2. mysql -u root -p 
+3. use db
+4. creación de la tabla con el comando del próximo apartado
 
 ---
 
