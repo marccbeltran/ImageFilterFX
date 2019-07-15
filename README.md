@@ -4,7 +4,7 @@
 
 Se adjunta archivo docker-compose
 
-docker-compose up -d BUILD
+docker-compose up --build
 
 ---
 
